@@ -1,13 +1,13 @@
 {
-  "name": "lockdiff",
+  "name": "lockdiffs",
   "version": "0.0.1",
-  "description": "command-line tool for comparint shared dependencies between two package-lock.json files",
+  "description": "command-line tool to compare dependencies versions between two package-lock.json files",
   "main": "index.js",
   "type": "module",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathiasdonoso/lock-diff.git"
+    "url": "git+https://github.com/mathiasdonoso/lockdiff.git"
   },
   "keywords": [
     "cli",
@@ -19,7 +19,7 @@
   "author": "Mathias Donoso <mathiasd88@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathiasdonoso/lock-diff/issues"
+    "url": "https://github.com/mathiasdonoso/lockdiff/issues"
   },
-  "homepage": "https://github.com/mathiasdonoso/lock-diff#readme"
+  "homepage": "https://github.com/mathiasdonoso/lockdiff#readme"
 }
