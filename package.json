@@ -1,6 +1,6 @@
 {
   "name": "lockdiffs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "command-line tool to compare dependencies versions between two package-lock.json files",
   "main": "index.js",
   "type": "module",
@@ -16,6 +16,9 @@
     "file",
     "dependencies"
   ],
+  "bin": {
+    "lockdiffs": "index.js"
+  },
   "author": "Mathias Donoso <mathiasd88@gmail.com>",
   "license": "MIT",
   "bugs": {

@@ -1,6 +1,6 @@
-# Lockdiff
+# Lockdiffs
 
-Lockdiff is a command-line tool for comparing two package-lock.json files. It identifies shared dependencies and displays their version differences in a tabular format.
+Lockdiffs is a command-line tool for comparing two package-lock.json files. It identifies shared dependencies and displays their version differences in a tabular format.
 
 ## Warning :warning:
 This project is still in WIP
@@ -10,13 +10,13 @@ This project is still in WIP
 ### Basic Usage
 
 ```bash
-npx lockdiff <path/to/package-lock1.json> <path/to/package-lock2.json>
+npx lockdiffs <path/to/package-lock1.json> <path/to/package-lock2.json>
 ```
 
 ### Example
 
 ```bash
-npx ./package-lock1.json ./package-lock2.json
+npx lockdiffs ./package-lock1.json ./package-lock2.json
 ```
 
 This will output a table showing version differences for shared dependencies between the two package-lock.json files like the following:
