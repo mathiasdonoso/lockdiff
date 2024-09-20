@@ -1,4 +1,4 @@
-/** @typedef {import('./package-lock-adapter').diffObject} diffObject **/
+/** @typedef {import('./package-lock-adapter').DiffObject} diffObject **/
 
 /** @enum {string} **/
 const COLORS = {
@@ -16,7 +16,7 @@ const DIFFERENCES = {
 }
 
 /**
- * @param {diffObject[]} diff
+ * @param {DiffObject[]} diff
  */
 export function printReport(diff) {
         const report = diff.map(d => {
